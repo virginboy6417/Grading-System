@@ -25,7 +25,16 @@ else if(score.value >=0 && score.value <=39){
 result.innerHTML = "FAIL"
 failure.play()
 }
-    else {
+
+else if(score.value >100){
+    result.innerHTML = "Input range is 0 - 100"
+    }
+    
+    else if(score.value <0){
+        result.innerHTML = "Input range is 0 - 100"
+        }
+
+else {
         result.innerHTML ="Wrong input"
         
     }
