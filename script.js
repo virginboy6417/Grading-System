@@ -11,7 +11,7 @@ function checkscore() {
         result.innerHTML="B-Good"
     }
     else if(score.value >=50 && score.value <=59){
-        result.innerHTML="CREDIT"
+        result.innerHTML="C-Credit"
     }
     else if (score.value >=45 && score.value <=49){
         result.innerHTML="D-Pass"
